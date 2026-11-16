@@ -14,9 +14,14 @@ or internal details are included.
 | --- | --- | --- |
 | [Orbit](orbit/README.md) | An AI copilot for support cases, used team-wide across several enterprise ERP products | LLM agents, Python/Flask, client–server design, signed releases, testing, AI evaluation |
 | [Skill Builder](skill-builder/README.md) | An MCP tool server that turns closed support cases into reusable troubleshooting guides | MCP, tool design for LLMs, personal-data scrubbing, validation |
-| [Atlas](atlas/README.md) | Claude Code commands that explain customer-specific code customisations in plain English | Prompt and command design, code comprehension with LLMs |
-| [Team workflows](automation/README.md) | Power Automate flows for the support team's own processes | Process automation, Microsoft 365 |
-| [Dart](dart/README.md) | An analysis of existing AI agents and a strategy for rebuilding them | Agent evaluation, architecture planning |
+
+### Also built
+
+- **Atlas:** Claude Code commands that explain customers' own C# customisations in plain English, so support
+  staff understand custom code without waiting for a developer.
+- **Team workflows:** Power Automate flows for the support team's own processes, such as turning issue reports
+  sent by e-mail into tracked Planner tasks.
+- **Dart:** an analysis of existing AI agents, and the strategy for rebuilding them.
 
 ## What these projects have in common
 
